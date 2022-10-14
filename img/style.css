@@ -1,0 +1,41 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+}
+body{
+    background-color: black;
+} */
+
+
+/* .navbar ul{
+    display: flex;
+}
+.navbar ul li{
+    padding: 25px;
+    list-style: none;
+}
+.search{
+    
+} */
+
+@media (max-width: 395px) {
+    .cardbox{
+        /* background: green; */
+    }
+    .buttones{
+        margin-left: 0px;
+        margin-right: 0px;
+        padding: 0px;
+    }
+    .buttones img{
+        height: 20px;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding: 0px;
+    }
+}
+.hozbox{
+    overflow-x: auto;
+}

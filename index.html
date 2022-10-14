@@ -1,123 +1,202 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Rentkart</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-  </head>
-  <body>
-    <style>
-        body{
-            background-color: black;
-        }
-    </style>
-    
 
-    <nav class="navbar navbar-expand-lg bg-dark">
-      <div class="container-fluid">
-        <a class="navbar-brand text-light" href="#">Rentkart</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
-            </li>
-           
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Dropdown Menu 
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Rentkart sales</a></li>
-                <li><a class="dropdown-item" href="#">Rentkart e-commerce</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Rentkart bussiness</a></li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled">Disabled</a>
-            </li>
-          </ul>
-          <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-          </form>
-        </div>
-      </div>
-    </nav>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link rel="stylesheet" href="img/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+
+<body class="bg-dark box-sizing: border-box">
 
 
 
-      <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="logo.jpg" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="logo.jpg" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="logo.jpg" class="d-block w-100" alt="...">
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+  <nav class="navbar navbar-expand-lg bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="img/logosample 1.png"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active mx-5" aria-current="page" href="#"><img src="img/Mumbai.png"></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mx-5" href="#"><img src="img/My Cart.png"></a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-light mx-5" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Dropdown Menu
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">list items</a></li>
+              <li><a class="dropdown-item" href="#">Rentkart Sales</a></li>
+              <li><a class="dropdown-item" href="#">Rentkart Bussiness</a></li>
+              <li><a class="dropdown-item" href="#">Rentkart for Events</a></li>
+              <li><a class="dropdown-item" href="#">Invest in ecosystem</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mx-5" href="#"><img src="img/Sign-up.png"></a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-light" type="submit">Search</button>
+        </form>
       </div>
 
-
-
-
-
-      <div class="container my-4 bg-dark">
-        <div class="row">
-          <div class="card col-md-3 mx-auto bg-dark" style="width: 18rem;">
-            
-              <div class="card-body text-light">
-                <h5 class="card-title">x box</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Buy</a>
-              </div>
-          </div>
-    
-          <div class="card col-md-3 mx-auto bg-dark" style="width: 18rem;">
-            
-              <div class="card-body text-light">
-                <h5 class="card-title">ps5</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Buy</a>
-              </div>
-          </div>
-    
-          <div class="card col-md-3 mx-auto bg-dark" style="width: 18rem;">
-            
-              <div class="card-body text-light">
-                <h5 class="card-title" id="harry">Macbook</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Buy</a>
-              </div>
-          </div>
     </div>
-    
-      
-    
+  </nav>
+
+
+
+
+
+  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/6085599 1.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="img/6085599 1.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="img/6085599 1.png" class="d-block w-100" alt="...">
+      </div>
     </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
 
 
-      
 
 
 
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
-  </body>
+  <!-- <h1 class="text-light mx-5 mt-3">select from Category</h1> -->
+
+  <div class="cardbox container d-flex flex-row  my-5 mt-5 flex-wrap w-100 ">
+
+
+    <button type="button" class="buttones btn btn-drak mx-4 my-2 border border-secondary"><img src="img/controller.png">
+      <p class="text-light">ps 5 </p>
+    </button>
+    <button type="button" class="buttones btn btn-drak mx-4 my-2 border border-secondary"><img src="img/controller.png">
+      <p class="text-light">Consoles</p>
+    </button>
+    <button type="button" class="buttones btn btn-drak mx-4 my-2 border border-secondary"><img src="img/controller.png">
+      <p class="text-light">Laptop</p>
+    </button>
+    <button type="button" class="buttones btn btn-drak mx-4 my-2 border border-secondary"><img src="img/controller.png">
+      <p class="text-light">Macbook</p>
+    </button>
+    <button type="button" class="buttones btn btn-drak mx-4 my-2 border border-secondary"><img src="img/controller.png">
+      <p class="text-light">ps2</p>
+    </button>
+    <button type="button" class="buttones btn btn-drak mx-4 my-2 border border-secondary"><img src="img/controller.png">
+      <p class="text-light">ipad</p>
+    </button>
+    <button type="button" class="buttones btn btn-drak mx-4 my-2 border border-secondary"><img src="img/controller.png">
+      <p class="text-light">tablet</p>
+    </button>
+    <button type="button" class="buttones btn btn-drak mx-4 my-2 border border-secondary"><img src="img/controller.png">
+      <p class="text-light">mobile</p>
+    </button>
+
+  </div>
+
+
+
+
+
+  <h1 class="text-light mx-5 mt-3">Trending Now</h1>
+  <div class="box-sizing: border-box container mt-3">
+
+    <ul class="hozbox d-flex box-sizing: border-box">
+      <li>
+        <div class="card bg-dark mx-3" style="width: 18rem;">
+          <img src="img/ps5.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title text-light">Ps5</h5>
+            <p class="card-text text-light">Starts at 1500/- per month</p>
+            <a href="#" class="btn btn-primary text-light">Rent Now</a>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="card bg-dark mx-3" style="width: 18rem;">
+          <img src="img/pc.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title text-light">PC</h5>
+            <p class="card-text text-light">Starts at 5000/- per month</p>
+            <a href="#" class="btn btn-primary text-light">Rent Now</a>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="card bg-dark mx-3" style="width: 18rem;">
+          <img src="img/ps.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title text-light">Ps5</h5>
+            <p class="card-text text-light">Starts at 1500/- per month</p>
+            <a href="#" class="btn btn-primary text-light">Rent Now</a>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="card bg-dark mx-3" style="width: 18rem;">
+          <img src="img/ps5.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title text-light">Ps5</h5>
+            <p class="card-text text-light">Starts at 1500/- per month</p>
+            <a href="#" class="btn btn-primary text-light">Rent Now</a>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="card bg-dark mx-3" style="width: 18rem;">
+          <img src="img/pc.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title text-light">Ps5</h5>
+            <p class="card-text text-light">Starts at 1500/- per month</p>
+            <a href="#" class="btn btn-primary text-light">Rent Now</a>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="card bg-dark mx-3" style="width: 18rem;">
+          <img src="img/ps5.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title text-light">Ps5</h5>
+            <p class="card-text text-light">Starts at 5000/- per month</p>
+            <a href="#" class="btn btn-primary text-light">Rent Now</a>
+          </div>
+        </div>
+      </li>
+    </ul>
+
+
+
+  </div>
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
-
